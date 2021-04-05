@@ -8,6 +8,7 @@ body {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    font-size: 1.0em;
 }
 
 a:visited {
@@ -41,11 +42,47 @@ a:visited {
     color: brown;
 }
 
-.image {
-    width: 150px;
-    height: 150px;
+.minitext {
+    font-size: 0.4em;
 }
 
-.minitext {
-    font-size: 0.5em;
+.miniimage {
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    max-width: 250px;
+    min-width: 50px;
+    max-height: 220px;
+    min-height: 30px;
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.element1 {
+    margin-right: 10px;
+    font-size: 0.6em;
+}
+
+.element2 {
+    font-size: 1em;
+}
+
+.minicube {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    /* Rédigez vos propriétés CSS ici */
 }
